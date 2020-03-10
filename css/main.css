@@ -22,6 +22,8 @@ p {
   margin: 0;
 }
 
+/********HEADER*********/
+
 .header {
   padding-top: 2rem;
   padding-bottom: 4.25rem;
@@ -99,6 +101,9 @@ h1 {
 .download_shop {
   font-weight: bold;
 }
+
+/********MAIN*********/
+/********Section*********/
 
 .sport {
   position: relative;
@@ -217,6 +222,8 @@ h2 {
   background-color: #090c35;
 }
 
+/*******Article**********/
+
 .article {
   position: relative;
 }
@@ -272,6 +279,8 @@ h3 {
   border-radius: 2px;
 }
 
+/********FOOTER*********/
+
 .footer {
   padding-top: 6.25rem;
   padding-bottom: 0.62rem;
@@ -321,7 +330,11 @@ h3 {
   margin-top: 5rem;
 }
 
+/********MIDDLE VIEWPORT*********/
+
 @media (min-width: 641px) {
+  /*********HEADER********/
+
   .header {
     padding-top: 2.38rem;
     padding-left: 7%;
@@ -384,6 +397,8 @@ h3 {
     margin-right: 7%;
   }
 
+  /********Section*********/
+
   .footballer {
     top: 5.5rem;
     left: 0;
@@ -422,8 +437,8 @@ h3 {
   .color-line::after,
   .white-line::after {
     height: 5px;
-    width: 1.3rem;
-    top: 1.4rem;
+    width: 1.5rem;
+    top: 1.6rem;
     border-radius: 3px;
   }
 
@@ -450,7 +465,7 @@ h3 {
     padding-right: 39%;
   }
 
-  /*****************/
+  /********Article*********/
 
   .article__content {
     padding-bottom: 6rem;
@@ -487,7 +502,7 @@ h3 {
     border-radius: 3px;
   }
 
-  /*****************/
+  /********FOOTER*********/
 
   .footer {
     padding-top: 7.88rem;
@@ -526,10 +541,14 @@ h3 {
   }
 }
 
+/********BIG VIEWPORT*********/
+
 @media (min-width: 961px) {
   body {
     max-width: 1920px;
   }
+
+  /********HEADER*********/
 
   .header {
     padding-top: 2.75rem;
@@ -561,13 +580,15 @@ h3 {
   .head-line-two {
     margin-left: 0;
     margin-bottom: 13rem;
-    text-align: end;
+    text-align: right;
   }
 
   .download {
     margin-left: 1.38rem;
     margin-right: 1.38rem;
   }
+
+  /********Section*********/
 
   .footballer {
     top: 1.38rem;
@@ -616,7 +637,8 @@ h3 {
     padding-right: 52%;
   }
 
-  /*********STOPPED HERE********/
+  /*********Article********/
+
   .article {
     display: flex;
   }
@@ -655,7 +677,7 @@ h3 {
     left: calc(50% - 10.5rem / 2);
   }
 
-  /*****************/
+  /********FOOTER*********/
 
   .footer {
     padding-top: 25vh;
