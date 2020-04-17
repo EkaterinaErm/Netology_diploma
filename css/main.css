@@ -235,7 +235,8 @@ h2 {
 }
 
 .sport__block {
-  padding-top: 3rem;
+  margin-top: -4rem;
+  padding-top: 4rem;
   padding-bottom: 3rem;
 }
 
@@ -437,11 +438,16 @@ h3 {
 
   .download-icon {
     height: 3rem;
+    width: 3rem;
   }
 
   .download_icon-link {
     margin-left: 12%;
     margin-right: 5%;
+  }
+
+  .download_text-link {
+    width: 10rem;
   }
 
   /********Section*********/
@@ -473,6 +479,7 @@ h3 {
 
   .sport__block {
     background-color: #fff;
+    margin-top: 0;
     padding-top: 1rem;
     padding-bottom: 2.1rem;
   }
@@ -639,7 +646,7 @@ h3 {
 
   .head-line-two {
     margin-left: 0;
-    margin-bottom: 10rem;
+    margin-bottom: 15vh;
     text-align: right;
   }
 
@@ -743,6 +750,7 @@ h3 {
   /********FOOTER*********/
 
   .footer {
+    margin-top: -5px;
     height: 100vh;
     box-sizing: border-box;
     padding-top: 17vh;
@@ -755,8 +763,8 @@ h3 {
     position: absolute;
     width: 8rem;
     height: 8.18rem;
-    top: 17vh;
-    left: 27vw;
+    top: 18vh;
+    left: 24.5vw;
   }
 
   .footer-title {
@@ -764,7 +772,7 @@ h3 {
     max-width: 45rem;
     margin-top: 0;
     margin-bottom: 12vh;
-    margin-left: 36vw;
+    margin-left: 38vw;
     text-align: left;
   }
 
