@@ -264,12 +264,16 @@ h2 {
 
 /*******Article**********/
 
-.article {
-  position: relative;
-}
-
 .article__picture {
   min-height: 21.5rem;
+}
+
+.article__picture-img {
+  width: 100%;
+}
+
+.article__content {
+  position: relative;
 }
 
 .article__content-text {
@@ -287,7 +291,7 @@ h2 {
   background-color: #5e42b0;
   align-items: center;
   justify-content: center;
-  top: 18.15rem;
+  top: -5.5rem;
   left: 6.25%;
 }
 
@@ -554,7 +558,7 @@ h3 {
   .article__number {
     width: 7.25rem;
     height: 7.25rem;
-    top: 31.56rem;
+    top: -9rem;
     left: 4%;
   }
 
@@ -618,7 +622,7 @@ h3 {
   /********HEADER*********/
 
   .header {
-    height: 100vh;
+    min-height: 100vh;
     box-sizing: border-box;
     padding-top: 2.75rem;
     padding-left: 10%;
@@ -709,6 +713,7 @@ h3 {
 
   .article {
     display: flex;
+    position: relative;
   }
 
   .middle-picture {
@@ -722,6 +727,7 @@ h3 {
     padding-right: 9%;
     width: 50%;
     box-sizing: border-box;
+    position: static;
   }
 
   .article__picture {
@@ -745,13 +751,14 @@ h3 {
     height: 9.69rem;
     top: 29%;
     left: calc(50% - 10.5rem / 2);
+    *left: -25%;
   }
 
   /********FOOTER*********/
 
   .footer {
     margin-top: -5px;
-    height: 100vh;
+    min-height: 100vh;
     box-sizing: border-box;
     padding-top: 17vh;
     padding-bottom: 4vh;

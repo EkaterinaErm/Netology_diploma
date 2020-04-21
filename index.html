@@ -182,7 +182,7 @@
 
       <article class="article">
         <div class="article__picture">
-          <picture class="article__picture-img">
+          <picture>
             <source
               media="(min-width: 961px)"
               srcset="images/be-active_1920.png"
@@ -198,6 +198,7 @@
             <img
               src="images/be-active_1920.png"
               alt="The man with a cellphone"
+              class="article__picture-img"
             />
           </picture>
         </div>
@@ -207,16 +208,13 @@
             Post videos with your skills, Like and follow others to be more
             popular.
           </p>
-        </div>
-        <div class="article__number">
-          <span class="article__number-color">01</span>
+          <div class="article__number">
+            <span class="article__number-color">01</span>
+          </div>
         </div>
       </article>
 
       <article class="article">
-        <div class="article__number">
-          <span class="article__number-color">02</span>
-        </div>
         <div class="article__picture middle-picture">
           <picture>
             <source
@@ -231,7 +229,11 @@
               media="(max-width: 640px)"
               srcset="images/find-contact_320.png"
             />
-            <img src="images/find-contact_1920.png" alt="Two men" />
+            <img
+              src="images/find-contact_1920.png"
+              alt="Two men"
+              class="article__picture-img"
+            />
           </picture>
         </div>
         <div class="article__content">
@@ -239,6 +241,9 @@
           <p class="article__content-text">
             Contact others to find right coach or athlete you are looking for.
           </p>
+          <div class="article__number">
+            <span class="article__number-color">02</span>
+          </div>
         </div>
       </article>
 
@@ -260,6 +265,7 @@
             <img
               src="images/work-it_1920.png"
               alt="The football team and cheerleaders"
+              class="article__picture-img"
             />
           </picture>
         </div>
@@ -269,9 +275,9 @@
             Enjoy being a student athlete, the recruiting process can be
             overwhelming, we want to make this enjoyable experience.
           </p>
-        </div>
-        <div class="article__number">
-          <span class="article__number-color">03</span>
+          <div class="article__number">
+            <span class="article__number-color">03</span>
+          </div>
         </div>
       </article>
     </main>
